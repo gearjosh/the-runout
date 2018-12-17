@@ -12,7 +12,8 @@ const render = (Component) => {
     <HashRouter>
       <Component />
     </HashRouter>,
-    document.getElementById('root'));
-}
+    document.getElementById('root')
+  );
+};
 
 render(App);
