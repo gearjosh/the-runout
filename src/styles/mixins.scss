@@ -4,3 +4,11 @@
   font-size: 1.25rem;
   color: $gray;
 }
+
+@mixin headerLinks {
+  font-family: "Uberlin Bold";
+  font-size: 1rem;
+  color: $red;
+  width: 5rem;
+  margin-right: 2.5rem;
+}

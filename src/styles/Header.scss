@@ -1,20 +1,24 @@
 @import 'variables';
 @import 'mixins';
 
+
+
 input {
+  display: inline-block;
   border: 0;
-  border-radius: 50rem;
+  border-radius: 2rem 0 0 2rem;
   box-shadow: none;
-  height: 2rem;
-  width: 18rem;
-  padding: .25rem;
+  height: 2.25rem;
+  width: 16rem;
+  padding: 0;
   padding-right: 1rem;
   text-align: right;
+  margin-right: 0;
   &:focus {
     outline: 0;
-
   }
 }
+
 
 .header {
   display: flex;
@@ -39,8 +43,26 @@ input {
   justify-content: flex-start;
   padding: 1rem;
   padding-left: 7.5rem;
-  background-color: lime;s
+  background-color: $orange;
   a {
-    width: 5rem;
+    @include headerLinks;
   }
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.magnifierSpace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  height: 2.25rem;
+  width: 2.25rem;
+  background-color: $blue;
+  border: 0;
+  border-radius: 0 2rem 2rem 0;
 }
