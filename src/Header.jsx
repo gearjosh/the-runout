@@ -19,9 +19,9 @@ function Header() {
         </form>
       </div>
       <div className="bottomBar">
-        <a>Profile</a>
-        <a>People</a>
-        <a>Lists</a>
+        <a href="#">Profile</a>
+        <a href="#">People</a>
+        <a href="#">Lists</a>
       </div>
     </div>
   )
