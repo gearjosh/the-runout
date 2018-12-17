@@ -4,8 +4,20 @@
   src:url('./../fonts/Berlin.ttf');
 }
 
+@font-face {
+  font-family: 'Uberlin';
+  src:local('Uberlin');
+  src:url('./../fonts/Uberlin.ttf');
+}
+
+@font-face {
+  font-family: 'Uberlin Bold';
+  src:local('Uberlin BOld');
+  src:url('./../fonts/Uberlin Bold.ttf');
+}
+
 .App {
   font-family: 'Berlin';
   font-size: 16px;
-  
+
 }
