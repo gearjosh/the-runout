@@ -1,24 +1,25 @@
 @import 'variables';
 @import 'mixins';
 
-
-
 input {
   display: inline-block;
   border: 0;
   border-radius: 2rem 0 0 2rem;
   box-shadow: none;
   height: 2.25rem;
-  width: 16rem;
+  width: 14.25rem;
   padding: 0;
   padding-right: 1rem;
   text-align: right;
   margin-right: 0;
+  color: $lightBlack;
   &:focus {
     outline: 0;
   }
+  &::placeholder {
+    color: $gray;
+  }
 }
-
 
 .header {
   display: flex;
@@ -30,8 +31,8 @@ input {
 .topBar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
+  align-items: flex-end;
+  padding: .5rem;
   background: $gradientBlack;
   p {
     @include allCapsOnBlack;
@@ -41,7 +42,8 @@ input {
 .bottomBar {
   display: flex;
   justify-content: flex-start;
-  padding: 1rem;
+  align-items: center;
+  height: 2.5rem;
   padding-left: 7.5rem;
   background-color: $orange;
   a {

@@ -1,3 +1,6 @@
+@import 'variables';
+@import 'mixins';
+
 @font-face {
   font-family: 'Berlin';
   src:local('Berlin');
@@ -16,8 +19,7 @@
   src:url('./../fonts/Uberlin Bold.ttf');
 }
 
-.App {
-  font-family: 'Berlin';
-  font-size: 16px;
-
+.mainBg {
+  background: $gradientBlack;
+  height: 100%;
 }
