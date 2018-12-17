@@ -1,41 +1,43 @@
 import React from 'react';
 
-import dopesmoker from './img/dopesmoker.jpg';
+import AlbumCover from './AlbumCover';
 
 import './styles/Homepage.scss';
-
-console.log(dopesmoker);
 
 function Homepage() {
   return (
     <div className="mainBg">
       <div className="albumGrid">
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
-        <img src={dopesmoker} alt="dopesmoker by sleep"></img>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
+        <AlbumCover/>
       </div>
     </div>
   )
