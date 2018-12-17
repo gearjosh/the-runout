@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 
 input {
   border: 0;
@@ -29,8 +30,7 @@ input {
   padding: 1rem;
   background: $gradientBlack;
   p {
-    font-family: 'Uberlin Bold';
-    color: $gray;
+    @include allCapsOnBlack;
   }
 }
 
