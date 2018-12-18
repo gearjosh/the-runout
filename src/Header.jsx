@@ -14,7 +14,7 @@ function Header() {
           <Logo/>
         </Link>
         <p>Because albums deserve to be listened to</p>
-        <form className="search">
+        <form id="searchForm" className="search">
           <input placeholder="Search albums..."></input>
           <button type="submit" className="magnifierSpace">
             <Link to="/searchresults">
