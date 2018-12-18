@@ -46,7 +46,7 @@ It will be an app to log and review album listens, similar to what letterboxd.co
 
 ## Mockup
 
-See the screenshots below and take a look at capstone-planning.sketch for more details.
+See the screenshots below and take a look at [capstone-planning.sketch](https://github.com/gearjosh/capstone-planning/blob/master/capstone-planning.sketch) for more details.
 
 ### Landing Page
 ![screenshot](https://raw.githubusercontent.com/gearjosh/capstone-planning/master/img/homepage-version-2.png)
