@@ -2,7 +2,7 @@ import React from 'react';
 
 import dopesmoker from './img/dopesmoker.jpg';
 
-// import './styles/AlbumCover.scss';
+import './styles/AlbumCover.scss';
 
 
 function AlbumCover() {
