@@ -2,6 +2,10 @@
 @import 'mixins';
 @import 'normalize';
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   background: $gradientBlackBig;
   width: 100%;
