@@ -8,7 +8,8 @@
 
 .albumSearchResult {
   width: 12rem;
-  background-color: $blue;
+  background-color: $white;
+  color: $gray;
   border-radius: 0 0 .5rem .5rem;
   img {
     object-fit: cover;
