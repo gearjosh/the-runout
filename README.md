@@ -1,44 +1,115 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# The Runout
 
-## Available Scripts
+#### A social network about music, December 18, 2018
 
-In the project directory, you can run:
+#### By Josh Gearheart
 
-### `npm start`
+## Project Description
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Name of Project:
+_The Runout_, AKA: "Letterboxd... but for music!"
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+#### Project’s Purpose or Goal:
+It will be an app to log and review album listens, similar to what letterboxd.com is for movies.
 
-### `npm test`
+#### List the absolute minimum features the project requires to meet this purpose or goal:
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- User can look up an album in the app
+- User can log an album as listened
+- User can rate and/or review an album
+- User can view a profile to see their ratings, reviews, and listens.
 
-### `npm run build`
+#### What tools, frameworks, libraries, APIs, modules and/or other resources will be used?
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- Redux
+- Discogs API (This one will need some backup, since I've realized there are some albums that Discogs doesn't have)
+- Last.fm API (As a backup for Discogs)
+- Sass
+- Firebase
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+#### What are the stretch goals?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Add user authentication so that more than one user can use the site at once.
+- Users can pick a list of favorite albums to display on a profile.
+- All recently logged albums will live in a CSS grid with sizing relative to how many times they were listened to.  This will function as the homepage.
+- Users can filter the homepage by popularity, only showing albums with more or less than a certain number of listens.
+- Users can follow other users to see what music they're listening to.
+- Users can make and save lists of albums (such as "Top Ten 70s Albums).
+- Users can add albums to a "Listen List" for albums that they're interested in.
+- Users can search out albums by artist, label, musician, etc.
 
-### `npm run eject`
+#### What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- OAuth
+- Maybe something else, but that's not clear yet.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Mockup
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+See the screenshots below and take a look at capstone-planning.sketch for more details.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Landing Page
+![screenshot](https://raw.githubusercontent.com/gearjosh/capstone-planning/master/img/homepage-version-2.png)
+### Landing Page on Scroll
+![screenshot](https://raw.githubusercontent.com/gearjosh/capstone-planning/master/img/homepage-version-2-scroll.png)
 
-## Learn More
+## Component Tree
+![component tree](https://raw.githubusercontent.com/gearjosh/capstone-planning/master/img/component_tree.jpg)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- ### Specs
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Setup/Installation Requirements
+
+### Pre-Install
+
+You must have Node.js an installed on your machine. If not, follow these pre-instructions:
+
+****
+
+#### **Node.js Install**
+
+##### _For OSX_
+
+- First, install Homebrew if it is not installed on your computer already.
+  - To install Homebrew, enter the following in order in terminal:
+  - `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+  - `$ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile`
+
+##### _For other operating systems_
+
+Head on over to the [Node website](https://nodejs.org/en/download/) to download and install the appropriate installer for your computer.
+
+##### _Install Node.js_
+
+Now install Node.js like this in terminal: `$ brew install node`.
+
+****
+
+#### **Windows Users**
+
+If you have a windows machine, you may also need a terminal program.  If so, download and install Git BASH at msysgit.github.io, and open it before continuing.
+
+****
+
+### Install
+
+- Open terminal and enter `$ cd Desktop` (or your preferred destination).
+- Then enter `$ git clone https://github.com/gearjosh/XXXXX.git`.
+- Enter `$ cd XXXXX`.
+- Enter `$ npm install`
+- Finally, enter `$ npm run start`.
+
+## Notes
+
+
+## Known Bugs -->
+
+
+## Support and contact details
+- For questions or support open an issue right here in this repo!
+
+## Technologies Used
+- This uses Sketch, React, Webpack, Javascript, npm, and more!
+
+### License
+This software is licensed under GNU GPLv3.
