@@ -2,12 +2,11 @@
 @import 'mixins';
 
 .albumDetail {
-  padding-top: 7rem;
+  padding-top: 6rem;
 }
 
 .albumDetailHead {
   padding: .5rem;
-  color: $lightGray;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -15,19 +14,18 @@
   img {
     width: 25vw;
   }
-  div {
-    width: auto;
-    min-width: 25vw;
-
-  }
   h1 {
-
     color: $white;
     font-family: 'Uberlin Bold';
+  }
+  h2, h3 {
+    color: $lightGray;
   }
 }
 
 .detailHeadElement {
+  width: auto;
+  min-width: 20vw;
   margin: 0 1rem;
 }
 
