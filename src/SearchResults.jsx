@@ -6,16 +6,16 @@ import './styles/SearchResults.scss';
 
 function SearchResults() {
   return (
-    <div className="mainBg">
-      <div className="albumSearchResult">
-        <AlbumCover/>
-        <div className="searchInfo">
-          <p>[Artist Name]</p>
-          <p>[Album Title]</p>
-          <p>Released [Year]</p>
+      <div className="searchContainer">
+        <div className="albumSearchResult">
+          <AlbumCover/>
+          <div className="searchInfo">
+            <p>[Artist Name]</p>
+            <p>[Album Title]</p>
+            <p>Released [Year]</p>
+          </div>
         </div>
       </div>
-    </div>
   )
 }
 
