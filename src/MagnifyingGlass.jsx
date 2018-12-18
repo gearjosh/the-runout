@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SimpleLineIcon from 'react-simple-line-icons';
 
 import './styles/MagnifyingGlass.scss';
@@ -6,7 +7,7 @@ import './styles/MagnifyingGlass.scss';
 
 function MagnifyingGlass() {
   return (
-    <SimpleLineIcon name="magnifier" color="$gray"/>
+    <SimpleLineIcon name="magnifier"></SimpleLineIcon>
   )
 }
 

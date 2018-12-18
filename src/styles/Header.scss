@@ -72,5 +72,18 @@ input {
   background-color: $blue;
   border: 0;
   border-radius: 0 2rem 2rem 0;
+  text-decoration: none;
   cursor: pointer;
+  &:focus {
+    outline: 0;
+  }
+  &:hover {
+    background-color: darken($blue, 10%);
+  }
+  &:active {
+    transform: scale(1.1);
+  }
+  a {
+    text-decoration: none;
+  }
 }
