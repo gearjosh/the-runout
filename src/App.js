@@ -6,7 +6,7 @@ import './styles/App.scss';
 
 import Header from './Header';
 import Homepage from './Homepage'
-import SearchResults from './SearchResults';
+import SearchResultsContainer from './SearchResultsContainer';
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
         <Header />
         <Switch>
           <Route exact path='/' component={Homepage}></Route>
-          <Route path='/searchresults' component={SearchResults}></Route>
+          <Route path='/searchresults' component={SearchResultsContainer}></Route>
         </Switch>
       </div>
     );
