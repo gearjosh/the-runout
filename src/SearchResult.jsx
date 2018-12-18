@@ -2,21 +2,21 @@ import React from 'react';
 
 import AlbumCover from './AlbumCover';
 
-import './styles/SearchResults.scss';
+import './styles/SearchResult.scss';
 
-function SearchResults() {
+function SearchResult() {
   return (
-      <div className="searchContainer">
+
         <div className="albumSearchResult">
           <AlbumCover/>
           <div className="searchInfo">
-            <p>[Artist Name]</p>
-            <p>[Album Title]</p>
+            <p className="boldPText">[Album Title]</p>
+            <p>by [Artist Name]</p>
             <p>Released [Year]</p>
           </div>
         </div>
-      </div>
+
   )
 }
 
-export default SearchResults;
+export default SearchResult;

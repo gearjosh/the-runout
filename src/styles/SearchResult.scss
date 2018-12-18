@@ -1,13 +1,8 @@
 @import 'variables';
 @import 'mixins';
 
-.searchContainer {
-  margin-top: 6.5rem;
-  padding: .5rem;
-}
-
 .albumSearchResult {
-  width: 12rem;
+  width: 100%;
   background-color: $white;
   color: $gray;
   border-radius: 0 0 .5rem .5rem;
@@ -17,5 +12,7 @@
     height: 100%;
   }
   .searchInfo {
+    padding: .25rem;
+    padding-left: 1rem;
   }
 }

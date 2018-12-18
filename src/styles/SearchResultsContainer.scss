@@ -1,0 +1,12 @@
+@import 'variables';
+@import 'mixins';
+
+.searchContainer {
+  display: grid;
+  padding: .5rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 3fr));
+  grid-auto-rows: 5fr;
+  grid-auto-flow: dense;
+  grid-gap: .5rem;
+  margin-top: 6.5rem;
+}
