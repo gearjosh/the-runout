@@ -1,13 +1,20 @@
 import React from 'react';
 
-// import AlbumCover from './AlbumCover';
+import AlbumCover from './AlbumCover';
 
 import './styles/SearchResults.scss';
 
 function SearchResults() {
   return (
     <div className="mainBg">
-      i am a search result
+      <div className="albumSearchResult">
+        <AlbumCover/>
+        <div className="searchInfo">
+          <p>[Artist Name]</p>
+          <p>[Album Title]</p>
+          <p>Released [Year]</p>
+        </div>
+      </div>
     </div>
   )
 }

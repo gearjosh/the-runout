@@ -7,7 +7,9 @@ import dopesmoker from './img/dopesmoker.jpg';
 
 function AlbumCover() {
   return (
-    <img src={dopesmoker}></img>
+    <div className="albumCover">
+      <img src={dopesmoker}></img>
+    </div>
   )
 }
 
