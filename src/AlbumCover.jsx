@@ -13,7 +13,7 @@ function AlbumCover() {
         <img src={dopesmoker} alt="the album cover art for Dopesmoker by Sleep"></img>
       </Link>
     </div>
-  )
-}
+  );
+};
 
 export default AlbumCover;

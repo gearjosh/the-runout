@@ -10,7 +10,7 @@ function AlbumCover8() {
     <div className="albumCover">
       <img src={doomsday} alt="the album cover art for Doomsday by MF DOOM"></img>
     </div>
-  )
-}
+  );
+};
 
 export default AlbumCover8;

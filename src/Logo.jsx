@@ -13,7 +13,7 @@ function Logo() {
         </text>
       </g>
     </svg>
-  )
-}
+  );
+};
 
 export default Logo;

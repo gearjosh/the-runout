@@ -10,7 +10,7 @@ function AlbumCover6() {
     <div className="albumCover">
       <img src={cauldron} alt="the album cover art for Cauldron of the Wild by Witch Mountain"></img>
     </div>
-  )
-}
+  );
+};
 
 export default AlbumCover6;

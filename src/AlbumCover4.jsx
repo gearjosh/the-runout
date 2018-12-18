@@ -10,7 +10,7 @@ function AlbumCover4() {
     <div className="albumCover">
       <img src={code} alt="the album cover art for The Wrath of Code by Dan Terminus"></img>
     </div>
-  )
-}
+  );
+};
 
 export default AlbumCover4;

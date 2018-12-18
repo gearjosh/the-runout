@@ -10,7 +10,7 @@ function AlbumCover5() {
     <div className="albumCover">
       <img src={automated} alt="the album cover art for Automated Refrains by Dan Terminus"></img>
     </div>
-  )
-}
+  );
+};
 
 export default AlbumCover5;

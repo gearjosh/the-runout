@@ -10,7 +10,7 @@ function AlbumCover3() {
     <div className="albumCover">
       <img src={aboutTime} alt="the album cover art for About Time by Horisont"></img>
     </div>
-  )
-}
+  );
+};
 
 export default AlbumCover3;

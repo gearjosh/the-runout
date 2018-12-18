@@ -13,7 +13,6 @@ import './styles/Homepage.scss';
 
 function Homepage() {
   return (
-
     <div className="albumGrid">
       <AlbumCover/>
       <AlbumCover2/>
@@ -72,8 +71,7 @@ function Homepage() {
       <AlbumCover7/>
       <AlbumCover8/>
     </div>
-
-  )
-}
+  );
+};
 
 export default Homepage;

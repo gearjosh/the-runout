@@ -10,7 +10,7 @@ function AlbumCover7() {
     <div className="albumCover">
       <img src={swords} alt="the album cover art for Liquid Swords by GZA"></img>
     </div>
-  )
-}
+  );
+};
 
 export default AlbumCover7;

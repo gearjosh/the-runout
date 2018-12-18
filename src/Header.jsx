@@ -29,7 +29,7 @@ function Header() {
         <Link to="#" replace>Lists</Link>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Header;

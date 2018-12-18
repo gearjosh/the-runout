@@ -10,7 +10,7 @@ function AlbumCover2() {
     <div className="albumCover">
       <img src={odyssey} alt="the album cover art for Odyssey by Horisont"></img>
     </div>
-  )
-}
+  );
+};
 
 export default AlbumCover2;

@@ -7,7 +7,7 @@ import './styles/MagnifyingGlass.scss';
 function MagnifyingGlass() {
   return (
     <SimpleLineIcon name="magnifier"></SimpleLineIcon>
-  )
-}
+  );
+};
 
 export default MagnifyingGlass;

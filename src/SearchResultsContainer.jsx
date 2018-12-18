@@ -20,7 +20,7 @@ function SearchResultsContainer() {
         <SearchResult/>
         <SearchResult/>
       </div>
-  )
-}
+  );
+};
 
 export default SearchResultsContainer;
