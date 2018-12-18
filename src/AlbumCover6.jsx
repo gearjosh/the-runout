@@ -5,7 +5,7 @@ import cauldron from './img/cauldron.jpg';
 import './styles/AlbumCover.scss';
 
 
-function AlbumCover5() {
+function AlbumCover6() {
   return (
     <div className="albumCover">
       <img src={cauldron} alt="the album cover art for Cauldron of the Wild by Witch Mountain"></img>
@@ -13,4 +13,4 @@ function AlbumCover5() {
   )
 }
 
-export default AlbumCover5;
+export default AlbumCover6;
