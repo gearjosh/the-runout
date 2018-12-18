@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Logo from './Logo';
 import MagnifyingGlass from './MagnifyingGlass'
@@ -9,19 +10,23 @@ function Header() {
   return (
     <div className="header">
       <div className="topBar">
-        <Logo/>
+        <Link to="/">
+          <Logo/>
+        </Link>
         <p>Because albums deserve to be listened to</p>
         <form className="search">
           <input placeholder="Search albums..."></input>
           <button type="submit" className="magnifierSpace">
-            <MagnifyingGlass id="magnifier"/>
+            <Link to="/searchresults">
+              <MagnifyingGlass id="magnifier"/>
+            </Link>
           </button>
         </form>
       </div>
       <div className="bottomBar">
-        <a href="#">Profile</a>
-        <a href="#">People</a>
-        <a href="#">Lists</a>
+        <Link to="#">Profile</Link>
+        <Link to="#">People</Link>
+        <Link to="#">Lists</Link>
       </div>
     </div>
   )
