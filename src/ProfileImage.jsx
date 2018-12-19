@@ -7,7 +7,7 @@ import './styles/ProfileImage.scss';
 function ProfileImage() {
   return (
     <div className="profileImage">
-      <img src={profile_image}></img>
+      <img src={profile_image} alt="it's my face"></img>
     </div>
   );
 };
