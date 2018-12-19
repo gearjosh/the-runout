@@ -41,7 +41,7 @@ input {
   padding: .5rem;
   background: $gradientBlackSmall;
   p {
-    @include allCapsOnBlack;
+    @include allCapsGrayOnBlack;
   }
 }
 
