@@ -1,24 +1,24 @@
 import React from 'react';
 
-import SearchResult from './SearchResult';
+import AlbumCoverWithInfo from './AlbumCoverWithInfo';
 
 import './styles/SearchResultsContainer.scss';
 
 function SearchResultsContainer() {
   return (
       <div className="searchContainer">
-        <SearchResult/>
-        <SearchResult/>
-        <SearchResult/>
-        <SearchResult/>
-        <SearchResult/>
-        <SearchResult/>
-        <SearchResult/>
-        <SearchResult/>
-        <SearchResult/>
-        <SearchResult/>
-        <SearchResult/>
-        <SearchResult/>
+        <AlbumCoverWithInfo/>
+        <AlbumCoverWithInfo/>
+        <AlbumCoverWithInfo/>
+        <AlbumCoverWithInfo/>
+        <AlbumCoverWithInfo/>
+        <AlbumCoverWithInfo/>
+        <AlbumCoverWithInfo/>
+        <AlbumCoverWithInfo/>
+        <AlbumCoverWithInfo/>
+        <AlbumCoverWithInfo/>
+        <AlbumCoverWithInfo/>
+        <AlbumCoverWithInfo/>
       </div>
   );
 };
