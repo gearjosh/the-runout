@@ -24,7 +24,7 @@ function Header() {
         </form>
       </div>
       <div className="bottomBar">
-        <Link to="#" replace>Profile</Link>
+        <Link to="/profile" replace>Profile</Link>
         <Link to="#" replace>People</Link>
         <Link to="#" replace>Lists</Link>
       </div>
