@@ -1,0 +1,36 @@
+@import 'variables';
+@import 'mixins';
+
+.actionMenu{
+  display: flex;
+  align-items: flex-start;
+}
+
+.actionElement {
+  width: 5rem;
+  height: 5rem;
+  margin: .25rem;
+  padding: .25rem;
+  color: $lightGray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  &:hover {
+    color: $blue;
+  }
+  &:active {
+    transform: scale(1.05);
+    border-radius: .25rem;
+  }
+}
+
+.actionElementFull {
+  background-color: $gray;
+}
+
+.actionElementEmpty {
+  background-color: transparent;
+  border: .25rem solid $gray;
+}
