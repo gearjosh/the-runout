@@ -1,0 +1,11 @@
+@import 'variables';
+@import 'mixins';
+
+.profileContainer {
+  padding: .5rem;
+  margin-top: 6rem;
+  h1 {
+    @include allCapsWhiteOnBlack;
+
+  }
+}
