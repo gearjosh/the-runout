@@ -1,4 +1,5 @@
 import constants from './../constants';
+const { c } = constants;
 
 export const selectAlbum = (idOfAlbum) => {
   return {
