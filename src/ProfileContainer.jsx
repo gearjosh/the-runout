@@ -1,11 +1,7 @@
 import React from 'react';
 
 import ProfileImage from './ProfileImage';
-import AlbumCover from './AlbumCover';
-import AlbumCover2 from './AlbumCover2';
-import AlbumCover3 from './AlbumCover3';
-import AlbumCover4 from './AlbumCover4';
-import AlbumCover5 from './AlbumCover5';
+import AlbumCoverWithInfo from './AlbumCoverWithInfo';
 
 import './styles/ProfileContainer.scss';
 
@@ -29,11 +25,11 @@ function ProfileContainer() {
       <div className="profileBody">
         <h1>Your Recent Listens</h1>
         <div className="listenLog">
-          <AlbumCover/>
-          <AlbumCover2/>
-          <AlbumCover3/>
-          <AlbumCover4/>
-          <AlbumCover5/>
+          <AlbumCoverWithInfo/>
+          <AlbumCoverWithInfo/>
+          <AlbumCoverWithInfo/>
+          <AlbumCoverWithInfo/>
+          <AlbumCoverWithInfo/>
         </div>
       </div>
 
