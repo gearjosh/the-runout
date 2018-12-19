@@ -11,6 +11,25 @@ import AlbumDetail from './AlbumDetail';
 import ProfileContainer from './ProfileContainer';
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      selectedAlbum: null,
+      listens: [
+        {
+          1545248383000: {
+            albumId: 1,
+            albumCover: null,
+            title: 'The Case of the Poopy Pants',
+            artist: 'Poopypants Jones',
+            firstListen: false
+          },
+        }
+      ]
+    };
+  };
+
   render() {
     return (
       <div className="App">
