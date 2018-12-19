@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './styles/Profile.scss';
+import './styles/ProfileContainer.scss';
 
-function Profile() {
+function ProfileContainer() {
   return (
     <div className="profileContainer">
       <h1>Ya Profile!</h1>
@@ -10,7 +10,7 @@ function Profile() {
   );
 };
 
-export default Profile;
+export default ProfileContainer;
 
 // these will be the components to go here
 // <UserInfo/>
