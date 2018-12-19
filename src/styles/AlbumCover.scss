@@ -2,6 +2,7 @@
 @import 'mixins';
 
 .albumCover{
+  display: inline-block;
   cursor: pointer;
   img {
     object-fit: cover;
