@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
+// import { connect } from 'react-redux';
 
 import Header from './Header';
 import Homepage from './Homepage'
@@ -7,16 +8,14 @@ import SearchResultsContainer from './SearchResultsContainer';
 import AlbumDetail from './AlbumDetail';
 import ProfileContainer from './ProfileContainer';
 
-import dopesmoker from './img/dopesmoker.jpg';
-
 import './styles/normalize.css';
 import './styles/App.scss';
 
 class App extends Component {
 
-  constructor(props) {
-    super(props);
-  };
+  // constructor(props) {
+  //   super(props);
+  // };
 
   render() {
     return (
@@ -34,3 +33,4 @@ class App extends Component {
 };
 
 export default App;
+// export default connect()(App);
