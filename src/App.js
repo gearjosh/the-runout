@@ -16,21 +16,6 @@ class App extends Component {
 
   constructor(props) {
     super(props);
-    this.initialState = {
-      selectedAlbum: 55625,
-      listens: [
-        {
-          1545248383000: {
-            albumId: 55625,
-            albumCover: {dopesmoker},
-            title: 'Dopesmoker',
-            artist: 'Sleep',
-            firstListen: false
-          },
-        }
-      ]
-    };
-    console.log(this.initialState);
   };
 
   render() {
