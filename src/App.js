@@ -1,33 +1,36 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import './styles/normalize.css';
-import './styles/App.scss';
-
 import Header from './Header';
 import Homepage from './Homepage'
 import SearchResultsContainer from './SearchResultsContainer';
 import AlbumDetail from './AlbumDetail';
 import ProfileContainer from './ProfileContainer';
 
+import dopesmoker from './img/dopesmoker.jpg';
+
+import './styles/normalize.css';
+import './styles/App.scss';
+
 class App extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {
-      selectedAlbum: null,
+    this.initialState = {
+      selectedAlbum: 55625,
       listens: [
         {
           1545248383000: {
-            albumId: 1,
-            albumCover: null,
-            title: 'The Case of the Poopy Pants',
-            artist: 'Poopypants Jones',
+            albumId: 55625,
+            albumCover: {dopesmoker},
+            title: 'Dopesmoker',
+            artist: 'Sleep',
             firstListen: false
           },
         }
       ]
     };
+    console.log(this.initialState);
   };
 
   render() {
