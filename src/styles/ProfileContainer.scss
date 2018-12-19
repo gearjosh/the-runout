@@ -4,8 +4,33 @@
 .profileContainer {
   padding: .5rem;
   margin-top: 6rem;
-  h1 {
-    @include allCapsWhiteOnBlack;
+}
+h1 {
+  @include allCapsWhiteOnBlack;
+}
 
+.profileUserInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  & > * {
+    margin-right: 1rem;
   }
+}
+
+.profileBody {
+  h1 {
+    margin-bottom: 1rem;
+  }
+  img  {
+    width: 10rem;
+  }
+}
+
+.listenLog {
+  display: grid;
+  grid-template-columns: repeat(5, 10rem);
+  
+  grid-gap: .5rem;
 }
