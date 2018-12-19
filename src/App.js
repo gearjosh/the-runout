@@ -8,6 +8,7 @@ import Header from './Header';
 import Homepage from './Homepage'
 import SearchResultsContainer from './SearchResultsContainer';
 import AlbumDetail from './AlbumDetail';
+import Profile from './Profile';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Route exact path='/' component={Homepage}></Route>
           <Route path='/searchresults' component={SearchResultsContainer}></Route>
           <Route path='/albumdetail' component={AlbumDetail}></Route>
+          <Route path='/profile' component={Profile}></Route>
         </Switch>
       </div>
     );
