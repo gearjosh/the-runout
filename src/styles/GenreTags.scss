@@ -1,0 +1,11 @@
+@import 'variables';
+@import 'mixins';
+
+.addGenreButton {
+  height: 1.5rem;
+  border: none;
+  outline: none;
+  &:active {
+    transform: scale(1.1);
+  }
+}
