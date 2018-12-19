@@ -1,0 +1,8 @@
+@import 'variables';
+@import 'mixins';
+
+.listenLog {
+  display: grid;
+  grid-template-columns: repeat(5, 10rem);
+  grid-gap: .5rem;
+}
