@@ -1,5 +1,5 @@
 import constants from './../constants';
-const { c, initialState } = constants;
+const { c } = constants;
 
 export default (state = {}, action) => {
   switch (action.type) {
