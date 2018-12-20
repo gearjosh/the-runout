@@ -19,7 +19,3 @@ function ProfileContainer() {
 };
 
 export default ProfileContainer;
-
-// these will be the components to go here
-// <UserInfo/>
-// <ListenLog/>
