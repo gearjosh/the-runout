@@ -8,7 +8,7 @@ export default {
       artist: 'Sleep',
       firstListen: false,
       loggedAt: 1545248383000,
-      releaseYear: 1776
+      releaseYear: 2012
     },
 
     879099: {
@@ -18,7 +18,7 @@ export default {
       artist: 'Horisont',
       firstListen: false,
       loggedAt: 1545248382999,
-      releaseYear: 1776
+      releaseYear: 2015
     },
 
     1128313: {
@@ -28,7 +28,7 @@ export default {
       artist: 'Horisont',
       firstListen: false,
       loggedAt: 1545248382998,
-      releaseYear: 1776
+      releaseYear: 2017
     },
 
     246639: {
@@ -38,7 +38,7 @@ export default {
       artist: 'MF DOOM',
       firstListen: false,
       loggedAt: 1545248382997,
-      releaseYear: 1776
+      releaseYear: 1999
     },
 
     25167: {
@@ -48,7 +48,7 @@ export default {
       artist: 'GZA',
       firstListen: false,
       loggedAt: 1545248382996,
-      releaseYear: 1776
+      releaseYear: 1995
     },
 
     854481: {
@@ -58,7 +58,7 @@ export default {
       artist: 'Dan Terminus',
       firstListen: false,
       loggedAt: 1545248382995,
-      releaseYear: 1776
+      releaseYear: 2015
     },
 
     1273169: {
@@ -68,7 +68,7 @@ export default {
       artist: 'Dan Terminus',
       firstListen: false,
       loggedAt: 1545248382994,
-      releaseYear: 1776
+      releaseYear: 2017
     },
 
     488487: {
@@ -78,7 +78,7 @@ export default {
       artist: 'Witch Mountain',
       firstListen: false,
       loggedAt: 1545248382993,
-      releaseYear: 1776
+      releaseYear: 2011
     },
 
     6035515: {
@@ -88,7 +88,7 @@ export default {
       artist: 'Madvillain',
       firstListen: false,
       loggedAt: 1545248382993,
-      releaseYear: 1776
+      releaseYear: 2004
     },
 
     3976200: {
@@ -98,7 +98,7 @@ export default {
       artist: 'Kendrick Lamar',
       firstListen: false,
       loggedAt: 1545248382992,
-      releaseYear: 1776
+      releaseYear: 2012
     },
 
     68475: {
@@ -108,7 +108,7 @@ export default {
       artist: 'The Who',
       firstListen: false,
       loggedAt: 1545248382991,
-      releaseYear: 1776
+      releaseYear: 1973
     },
 
     12935659: {
@@ -118,7 +118,7 @@ export default {
       artist: 'High on Fire',
       firstListen: false,
       loggedAt: 1545248382991,
-      releaseYear: 1776
+      releaseYear: 2018
     },
 
     7086111: {
@@ -128,7 +128,7 @@ export default {
       artist: 'Ruby the Hatchet',
       firstListen: false,
       loggedAt: 1545248382990,
-      releaseYear: 1776
+      releaseYear: 2015
     },
 
     1227641: {
@@ -138,7 +138,7 @@ export default {
       artist: 'Ruby the Hatchet',
       firstListen: false,
       loggedAt: 1545248382989,
-      releaseYear: 1776
+      releaseYear: 2017
     },
 
     1351300: {
@@ -148,7 +148,7 @@ export default {
       artist: 'Sleep',
       firstListen: false,
       loggedAt: 1545248382988,
-      releaseYear: 1776
+      releaseYear: 2018
     },
 
     25303: {
@@ -158,7 +158,7 @@ export default {
       artist: 'Wu-Tang Clan',
       firstListen: false,
       loggedAt: 1545248382987,
-      releaseYear: 1776
+      releaseYear: 1993
     },
 
     42787: {
@@ -168,7 +168,7 @@ export default {
       artist: 'Sleep',
       firstListen: false,
       loggedAt: 1545248382986,
-      releaseYear: 1776
+      releaseYear: 1993
     },
 
     22711: {
@@ -178,7 +178,7 @@ export default {
       artist: 'Blind Guardian',
       firstListen: false,
       loggedAt: 1545248382985,
-      releaseYear: 1776
+      releaseYear: 1988
     }
   }
 };
