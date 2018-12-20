@@ -88,3 +88,9 @@ input {
     text-decoration: none;
   }
 }
+
+@media screen and (max-width: 60rem){
+  #because {
+    display: none;
+  }
+}
