@@ -25,7 +25,7 @@ class App extends Component {
         <Switch>
           <Route exact path='/' render={() => <Homepage listens={this.props.listens}/>}></Route>
           <Route path='/searchresults' component={SearchResultsContainer}></Route>
-          <Route path='/albumdetail' component={AlbumDetail}></Route>
+          <Route path='/albumdetail' render={() => <AlbumDetail selectedAlbum={this.props.selectedAlbum} listens={this.props.listens}/>}></Route>
           <Route path='/profile' component={ProfileContainer}></Route>
         </Switch>
       </div>

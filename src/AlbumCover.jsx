@@ -18,7 +18,7 @@ function AlbumCover(props) {
   return (
     <div className="albumCover" onClick={() => {handleNewAlbumSelection(props.albumId)}}>
       <Link to="/albumdetail">
-        <img src={props.albumCover} alt={altText}></img>
+        <img src={props.listens.albumCover} alt={altText}></img>
       </Link>
     </div>
   );

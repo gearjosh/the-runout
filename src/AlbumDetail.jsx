@@ -10,11 +10,11 @@ import ActionMenu from './ActionMenu';
 
 import './styles/AlbumDetail.scss';
 
-function AlbumDetail() {
+function AlbumDetail(props) {
   return (
     <div className="albumDetail">
       <div className="albumDetailHead">
-        <AlbumCover className="detailHeadElement"/>
+        <AlbumCover listens={props.listens} selectedAlbum={props.selectedAlbum} className="detailHeadElement"/>
         <div className="detailHeadElement">
           <AlbumCoreInfo/>
           <GenreTags/>
