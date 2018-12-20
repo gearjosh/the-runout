@@ -22,7 +22,7 @@ function Header(props) {
         <Link to="/">
           <Logo/>
         </Link>
-        <p>Because albums deserve to be listened to</p>
+        <p id="because">Because albums deserve to be listened to</p>
         <form id="searchForm" className="search">
           <input
             placeholder="Search albums..."
