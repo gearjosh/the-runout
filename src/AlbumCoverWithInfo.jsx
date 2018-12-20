@@ -4,15 +4,19 @@ import AlbumCover from './AlbumCover';
 
 import './styles/AlbumCoverWithInfo.scss';
 
-function AlbumCoverWithInfo() {
+function AlbumCoverWithInfo(props) {
   return (
     <div className="albumCoverWithInfo">
-      <AlbumCover/>
+      <AlbumCover
+        albumId={props.albumId}
+        albumCover={props.albumCover}
+        key={props.albumId} />
       <div className="albumInfoBox">
         <ul>
-          <li className="boldPText">[Album Title]</li>
-          <li>by [Artist Name]</li>
-          <li>Released [Year]</li>
+          <li className="boldPText">{props.title}</li>
+          <li>by {props.artist}</li>
+          <br/>
+          <li><em>Released {props.releaseYear}</em></li>
         </ul>
       </div>
     </div>
