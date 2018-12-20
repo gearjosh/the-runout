@@ -1,5 +1,5 @@
 export default {
-  selectedAlbum: null,
+  selectedAlbum: 55625,
   listens: {
     55625: {
       albumId: 55625,
