@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { selectAlbum } from './actions';
 
-import dopesmoker from './img/dopesmoker.jpg';
+// import dopesmoker from './img/dopesmoker.jpg';
 
 import './styles/AlbumCover.scss';
 
