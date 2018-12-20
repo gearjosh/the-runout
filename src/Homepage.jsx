@@ -16,8 +16,7 @@ function Homepage(props) {
           albumCover={album.albumCover}
           firstListen={album.firstListen}
           loggedAt={album.loggedAt}
-          key={albumId}
-          />
+          key={albumId} />
       })}
     </div>
   );
