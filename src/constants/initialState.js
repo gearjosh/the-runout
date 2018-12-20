@@ -7,7 +7,8 @@ export default {
       title: 'Dopesmoker',
       artist: 'Sleep',
       firstListen: false,
-      loggedAt: 1545248383000
+      loggedAt: 1545248383000,
+      releaseYear: 1776
     },
 
     879099: {
@@ -16,7 +17,8 @@ export default {
       title: 'Odyssey',
       artist: 'Horisont',
       firstListen: false,
-      loggedAt: 1545248382999
+      loggedAt: 1545248382999,
+      releaseYear: 1776
     },
 
     1128313: {
@@ -25,7 +27,8 @@ export default {
       title: 'About Time',
       artist: 'Horisont',
       firstListen: false,
-      loggedAt: 1545248382998
+      loggedAt: 1545248382998,
+      releaseYear: 1776
     },
 
     246639: {
@@ -34,7 +37,8 @@ export default {
       title: 'Operation Doomsday',
       artist: 'MF DOOM',
       firstListen: false,
-      loggedAt: 1545248382997
+      loggedAt: 1545248382997,
+      releaseYear: 1776
     },
 
     25167: {
@@ -43,7 +47,8 @@ export default {
       title: 'Liquid Swords',
       artist: 'GZA',
       firstListen: false,
-      loggedAt: 1545248382996
+      loggedAt: 1545248382996,
+      releaseYear: 1776
     },
 
     854481: {
@@ -52,7 +57,8 @@ export default {
       title: 'The Wrath of Code',
       artist: 'Dan Terminus',
       firstListen: false,
-      loggedAt: 1545248382995
+      loggedAt: 1545248382995,
+      releaseYear: 1776
     },
 
     1273169: {
@@ -61,7 +67,8 @@ export default {
       title: 'Automated Refrains',
       artist: 'Dan Terminus',
       firstListen: false,
-      loggedAt: 1545248382994
+      loggedAt: 1545248382994,
+      releaseYear: 1776
     },
 
     488487: {
@@ -70,7 +77,8 @@ export default {
       title: 'South of Salem',
       artist: 'Witch Mountain',
       firstListen: false,
-      loggedAt: 1545248382993
+      loggedAt: 1545248382993,
+      releaseYear: 1776
     },
 
     6035515: {
@@ -79,7 +87,8 @@ export default {
       title: 'Madvillainy',
       artist: 'Madvillain',
       firstListen: false,
-      loggedAt: 1545248382993
+      loggedAt: 1545248382993,
+      releaseYear: 1776
     },
 
     3976200: {
@@ -88,7 +97,8 @@ export default {
       title: 'good kid, m.A.A.d. city',
       artist: 'Kendrick Lamar',
       firstListen: false,
-      loggedAt: 1545248382992
+      loggedAt: 1545248382992,
+      releaseYear: 1776
     },
 
     68475: {
@@ -97,7 +107,8 @@ export default {
       title: 'Quadrophenia',
       artist: 'The Who',
       firstListen: false,
-      loggedAt: 1545248382991
+      loggedAt: 1545248382991,
+      releaseYear: 1776
     },
 
     12935659: {
@@ -106,7 +117,8 @@ export default {
       title: 'Elecric Messiah',
       artist: 'High on Fire',
       firstListen: false,
-      loggedAt: 1545248382991
+      loggedAt: 1545248382991,
+      releaseYear: 1776
     },
 
     7086111: {
@@ -115,7 +127,8 @@ export default {
       title: 'Valley of the Snake',
       artist: 'Ruby the Hatchet',
       firstListen: false,
-      loggedAt: 1545248382990
+      loggedAt: 1545248382990,
+      releaseYear: 1776
     },
 
     1227641: {
@@ -124,7 +137,8 @@ export default {
       title: 'Planetary Space Child',
       artist: 'Ruby the Hatchet',
       firstListen: false,
-      loggedAt: 1545248382989
+      loggedAt: 1545248382989,
+      releaseYear: 1776
     },
 
     1351300: {
@@ -133,7 +147,8 @@ export default {
       title: 'The Sciences',
       artist: 'Sleep',
       firstListen: false,
-      loggedAt: 1545248382988
+      loggedAt: 1545248382988,
+      releaseYear: 1776
     },
 
     25303: {
@@ -142,7 +157,8 @@ export default {
       title: 'Enter The Wu-Tang (36 Chambers)',
       artist: 'Wu-Tang Clan',
       firstListen: false,
-      loggedAt: 1545248382987
+      loggedAt: 1545248382987,
+      releaseYear: 1776
     },
 
     42787: {
@@ -151,7 +167,8 @@ export default {
       title: 'Sleep\'s Holy Mountain',
       artist: 'Sleep',
       firstListen: false,
-      loggedAt: 1545248382986
+      loggedAt: 1545248382986,
+      releaseYear: 1776
     },
 
     22711: {
@@ -160,7 +177,8 @@ export default {
       title: 'Battalions of Fear',
       artist: 'Blind Guardian',
       firstListen: false,
-      loggedAt: 1545248382985
+      loggedAt: 1545248382985,
+      releaseYear: 1776
     }
   }
 };
