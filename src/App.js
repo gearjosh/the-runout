@@ -23,10 +23,22 @@ class App extends Component {
       <div className="App">
         <Header />
         <Switch>
-          <Route exact path='/' render={() => <Homepage listens={this.props.listens}/>}></Route>
-          <Route path='/searchresults' component={SearchResultsContainer}></Route>
-          <Route path='/albumdetail' render={() => <AlbumDetail selectedAlbum={this.props.selectedAlbum} listens={this.props.listens}/>}></Route>
-          <Route path='/profile' component={ProfileContainer}></Route>
+
+          <Route exact path='/'
+            render={() => <Homepage
+              listens={this.props.listens}/>}/>
+
+          <Route path='/searchresults'
+            component={SearchResultsContainer}/>
+
+          <Route path='/albumdetail'
+            render={() => <AlbumDetail
+              selectedAlbum={this.props.selectedAlbum}
+              listens={this.props.listens}/>}/>
+
+          <Route path='/profile'
+            component={ProfileContainer}/>
+
         </Switch>
       </div>
     );
