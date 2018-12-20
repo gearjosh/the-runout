@@ -29,7 +29,8 @@ class App extends Component {
               listens={this.props.listens}/>}/>
 
           <Route path='/searchresults'
-            component={SearchResultsContainer}/>
+            render={() => <SearchResultsContainer
+              listens={this.props.listens}/>}/>
 
           <Route path='/albumdetail'
             render={() => <AlbumDetail
@@ -37,7 +38,9 @@ class App extends Component {
               listens={this.props.listens}/>}/>
 
           <Route path='/profile'
-            component={ProfileContainer}/>
+            render={() => <ProfileContainer
+              selectedAlbum={this.props.selectedAlbum}
+              listens={this.props.listens}/>}/>
 
         </Switch>
       </div>
