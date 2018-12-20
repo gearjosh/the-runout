@@ -8,18 +8,17 @@ import dopesmoker from './img/dopesmoker.jpg';
 import './styles/AlbumCover.scss';
 
 function AlbumCover(props) {
-  let _albumId;
 
   function handleNewAlbumSelection(idOfAlbum) {
     const { dispatch } = props;
-    // event.preventDefault();
     dispatch(selectAlbum(idOfAlbum));
   }
   console.log(props);
+  const altText = "the album cover art for " + props.title + " by " + props.artist;
   return (
     <div className="albumCover" onClick={() => {handleNewAlbumSelection(props.albumId)}}>
       <Link to="/albumdetail">
-        <img src={props.albumCover} alt="the album cover art for {props.title} by {props.artist}"></img>
+        <img src={props.albumCover} alt={altText}></img>
       </Link>
     </div>
   );

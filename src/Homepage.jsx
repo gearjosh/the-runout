@@ -10,12 +10,13 @@ function Homepage(props) {
       {Object.keys(props.listens).map((albumId) => {
         let album = props.listens[albumId];
         return <AlbumCover
+          albumId={albumId}
           title={album.title}
           artist={album.artist}
           albumCover={album.albumCover}
           firstListen={album.firstListen}
           loggedAt={album.loggedAt}
-          key={album.albumId}
+          key={albumId}
           />
       })}
     </div>

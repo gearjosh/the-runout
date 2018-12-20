@@ -1,1 +1,1 @@
-export const ADD_ALBUM = 'ADD_ALBUM';
+export const SELECT_ALBUM = 'SELECT_ALBUM';
