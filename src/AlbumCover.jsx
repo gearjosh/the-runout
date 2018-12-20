@@ -15,11 +15,11 @@ function AlbumCover(props) {
     // event.preventDefault();
     dispatch(selectAlbum(idOfAlbum));
   }
-
+  console.log(props);
   return (
     <div className="albumCover" onClick={() => {handleNewAlbumSelection(props.albumId)}}>
       <Link to="/albumdetail">
-        <img src={dopesmoker} alt="the album cover art for Dopesmoker by Sleep"></img>
+        <img src={props.albumCover} alt="the album cover art for {props.title} by {props.artist}"></img>
       </Link>
     </div>
   );

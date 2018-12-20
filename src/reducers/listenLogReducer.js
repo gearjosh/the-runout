@@ -1,6 +1,6 @@
 import constants from './../constants';
-const { c } = constants;
+const { c, initialState } = constants;
 
-export default (state = {}, action) => {
+export default (state = initialState.listens, action) => {
   return state;
 };

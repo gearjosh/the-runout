@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
-// import { connect } from 'react-redux';
+import { Switch, Route, withRouter } from 'react-router-dom';
+import { connect } from 'react-redux';
 
 import Header from './Header';
 import Homepage from './Homepage'
@@ -18,11 +18,12 @@ class App extends Component {
   // };
 
   render() {
+    console.log(this.props);
     return (
       <div className="App">
         <Header />
         <Switch>
-          <Route exact path='/' component={Homepage}></Route>
+          <Route exact path='/' render={() => <Homepage listens={this.props.listens}/>}></Route>
           <Route path='/searchresults' component={SearchResultsContainer}></Route>
           <Route path='/albumdetail' component={AlbumDetail}></Route>
           <Route path='/profile' component={ProfileContainer}></Route>
@@ -32,5 +33,11 @@ class App extends Component {
   };
 };
 
-export default App;
-// export default connect()(App);
+const mapStateToProps = state => {
+  return {
+    selectedAlbum: state.selectedAlbum,
+    listens: state.listens
+  };
+};
+
+export default withRouter(connect(mapStateToProps)(App));
