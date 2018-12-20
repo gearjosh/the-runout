@@ -8,6 +8,7 @@ import dopesmoker from './img/dopesmoker.jpg';
 import './styles/AlbumCover.scss';
 
 function AlbumCover(props) {
+  console.log(props);
 
   function handleNewAlbumSelection(idOfAlbum) {
     const { dispatch } = props;
@@ -18,7 +19,7 @@ function AlbumCover(props) {
   return (
     <div className="albumCover" onClick={() => {handleNewAlbumSelection(props.albumId)}}>
       <Link to="/albumdetail">
-        <img src={props.listens.albumCover} alt={altText}></img>
+        <img src={props.albumCover} alt={altText}></img>
       </Link>
     </div>
   );
