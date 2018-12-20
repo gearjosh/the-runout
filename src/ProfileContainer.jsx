@@ -5,13 +5,16 @@ import ListenLog from './ListenLog';
 
 import './styles/ProfileContainer.scss';
 
-function ProfileContainer() {
+function ProfileContainer(props) {
+  console.log(props);
   return (
     <div className="profileContainer">
 
-      <UserInfo/>
+      <UserInfo />
+
       <div className="profileBody">
-        <ListenLog/>
+        <ListenLog selectedAlbum={props.selectedAlbum}
+        listens={props.listens} />
       </div>
 
     </div>
