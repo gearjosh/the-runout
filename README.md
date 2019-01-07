@@ -17,7 +17,7 @@ It will be an app to log and review album listens, similar to what letterboxd.co
 - User can look up an album in the app
 - User can log an album as listened
 - User can rate and/or review an album
-- User can view a profile to see their ratings, reviews, and listens.
+- User can view a profile to see their ~~ratings, reviews, and~~ listens.
 
 #### What tools, frameworks, libraries, APIs, modules and/or other resources will be used?
 
@@ -25,6 +25,7 @@ It will be an app to log and review album listens, similar to what letterboxd.co
 - Redux
 - Discogs API (This one will need some backup, since I've realized there are some albums that Discogs doesn't have)
 - Last.fm API (As a backup for Discogs)
+- BandCamp API (as a backup for lastFM)
 - Sass
 - Firebase
 
@@ -56,13 +57,29 @@ See the screenshots below and take a look at [capstone-planning.sketch](https://
 ## Component Tree
 ![component tree](https://raw.githubusercontent.com/gearjosh/capstone-planning/master/img/component_tree.jpg)
 
-<!-- ### Specs
+## Current To-Dos
+
+on search submit return search data in SearchResult
+
+to do:
+- get discogs creds documented
+- create discogsApiCall function
+- get discogsApiCall to return:
+  - search results for that album
+  - search results for that artist
+- create test for future reducer to fail
+- create action creator to supply arguments to discogsApiCall function
+- create middleware to handle api call
+- create reducer to update state with search results
+- populate SearchResultsContainer with results
+
+<!-- ### Specs -->
 
 ## Setup/Installation Requirements
 
 ### Pre-Install
 
-You must have Node.js an installed on your machine. If not, follow these pre-instructions:
+You must have Node.js installed on your machine. If not, follow these pre-instructions:
 
 ****
 
@@ -99,10 +116,10 @@ If you have a windows machine, you may also need a terminal program.  If so, dow
 - Enter `$ npm install`
 - Finally, enter `$ npm run start`.
 
-## Notes
+<!-- ## Notes -->
 
 
-## Known Bugs -->
+<!-- ## Known Bugs -->
 
 
 ## Support and contact details
