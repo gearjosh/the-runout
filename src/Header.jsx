@@ -33,3 +33,6 @@ function Header() {
 };
 
 export default Header;
+
+
+// on search submit return search data in SearchResult

@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "status": 200
+  },
+  "data": {
+    "profile": "",
+    "realname": "Jesper Dahlbäck",
+    "releases_url": "https://api.discogs.com/artists/1/releases",
+    "name": "The Persuader",
+    "uri": "https://www.discogs.com/artist/1-The-Persuader",
+    "images": [
+      {
+        "uri": "",
+        "height": 450,
+        "width": 600,
+        "resource_url": "",
+        "type": "primary",
+        "uri150": ""
+      },
+      {
+        "uri": "",
+        "height": 771,
+        "width": 600,
+        "resource_url": "",
+        "type": "secondary",
+        "uri150": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/artists/1",
+    "aliases": [
+      {
+        "resource_url": "https://api.discogs.com/artists/19541",
+        "id": 19541,
+        "name": "Dick Track"
+      },
+      {
+        "resource_url": "https://api.discogs.com/artists/278760",
+        "id": 278760,
+        "name": "Faxid"
+      },
+      {
+        "resource_url": "https://api.discogs.com/artists/16055",
+        "id": 16055,
+        "name": "Groove Machine"
+      },
+      {
+        "resource_url": "https://api.discogs.com/artists/196957",
+        "id": 196957,
+        "name": "Janne Me' Amazonen"
+      },
+      {
+        "resource_url": "https://api.discogs.com/artists/239",
+        "id": 239,
+        "name": "Jesper Dahlbäck"
+      },
+      {
+        "resource_url": "https://api.discogs.com/artists/25227",
+        "id": 25227,
+        "name": "Lenk"
+      },
+      {
+        "resource_url": "https://api.discogs.com/artists/439150",
+        "id": 439150,
+        "name": "The Pinguin Man"
+      }
+    ],
+    "id": 1,
+    "data_quality": "Correct",
+    "namevariations": [
+      "Persuader",
+      "The Presuader"
+    ]
+  }
+}

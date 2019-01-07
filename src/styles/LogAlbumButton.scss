@@ -1,0 +1,7 @@
+@import 'variables';
+@import 'mixins';
+
+.actionElementFull {
+  @include actionElement;
+  background-color: $gray;
+}
