@@ -44,6 +44,3 @@ function Header(props) {
 };
 
 export default Header;
-
-
-// on search submit return search data in SearchResult

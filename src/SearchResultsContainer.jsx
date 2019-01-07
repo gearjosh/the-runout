@@ -8,9 +8,8 @@ import createSmallListenArray from './constants';
 
 function SearchResultsContainer(props) {
 
-  let bigListenArray = Object.keys(props.listens);
-
-  let sleepArray = [];
+  //everything having to do with createSleepArray is for demo purposes only and needs to go. replace with real code that does real things
+  // start here >
 
   function createSleepArray() {
     bigListenArray.forEach((albumId) => {
@@ -20,11 +19,14 @@ function SearchResultsContainer(props) {
     });
   }
 
-  createSleepArray();
+  let bigListenArray = Object.keys(props.listens);
+
+  let sleepArray = createSleepArray();
 
   return (
       <div className="searchContainer">
         {sleepArray.map((albumId) => {
+          // < end here
           let album = props.listens[albumId];
           return <AlbumCoverWithInfo
             albumId={albumId}
