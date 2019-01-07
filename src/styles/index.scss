@@ -34,12 +34,12 @@ ol {
   padding-left: 1.5rem;
 }
 
-// h1 {
-// }
-//
-// h2, h3 {
-//   letter-spacing: .0625rem;
-// }
+.mainBg {
+  background: $gradientBlackBig;
+  height: 100%;
+  margin-top: 7rem;
+}
+
 
 .boldPText {
   font-size: 1.2rem;

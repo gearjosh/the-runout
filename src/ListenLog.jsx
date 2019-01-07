@@ -2,29 +2,25 @@ import React from 'react';
 
 import AlbumCoverWithInfo from './AlbumCoverWithInfo';
 
-import './styles/SearchResultsContainer.scss';
+import './styles/ListenLog.scss';
 
-import createSmallListenArray from './constants';
-
-function SearchResultsContainer(props) {
+function ListenLog(props) {
 
   let bigListenArray = Object.keys(props.listens);
+  let smallListenArray = [];
 
-  let sleepArray = [];
-
-  function createSleepArray() {
-    bigListenArray.forEach((albumId) => {
-      if (props.listens[albumId].artist === 'Sleep') {
-        sleepArray.push(albumId);
-      }
-    });
+  function createSmallListenArray() {
+    for(let i = 0; i < 5; i ++) {
+      smallListenArray.push(bigListenArray[i]);
+    }
   }
-
-  createSleepArray();
+  createSmallListenArray();
 
   return (
-      <div className="searchContainer">
-        {sleepArray.map((albumId) => {
+    <div>
+      <h1>Your Recent Listens</h1>
+      <div className="listenLog">
+        {smallListenArray.map((albumId) => {
           let album = props.listens[albumId];
           return <AlbumCoverWithInfo
             albumId={albumId}
@@ -36,8 +32,9 @@ function SearchResultsContainer(props) {
             releaseYear={album.releaseYear}
             key={albumId} />
         })}
+        </div>
       </div>
-  );
-};
+    );
+  };
 
-export default SearchResultsContainer;
+  export default ListenLog;

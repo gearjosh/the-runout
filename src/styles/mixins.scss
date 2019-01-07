@@ -1,8 +1,14 @@
 // text styles
-@mixin allCapsOnBlack {
+@mixin allCapsGrayOnBlack {
   font-family: "Uberlin Bold";
   font-size: 1.125rem;
   color: $gray;
+  margin: 0;
+}
+
+@mixin allCapsWhiteOnBlack {
+  font-family: "Uberlin Bold";
+  color: $white;
   margin: 0;
 }
 

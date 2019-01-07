@@ -10,13 +10,22 @@ import ActionMenu from './ActionMenu';
 
 import './styles/AlbumDetail.scss';
 
-function AlbumDetail() {
+function AlbumDetail(props) {
+  console.log(props);
   return (
     <div className="albumDetail">
       <div className="albumDetailHead">
-        <AlbumCover className="detailHeadElement"/>
+        <AlbumCover
+          albumId={props.selectedAlbum}
+          albumCover={props.listens[props.selectedAlbum].albumCover}
+          firstListen={props.listens[props.selectedAlbum].firstListen}
+          loggedAt={props.listens[props.selectedAlbum].loggedAt}
+          className="detailHeadElement"/>
         <div className="detailHeadElement">
-          <AlbumCoreInfo/>
+          <AlbumCoreInfo
+            title={props.listens[props.selectedAlbum].title}
+            artist={props.listens[props.selectedAlbum].artist}
+            releaseYear={props.listens[props.selectedAlbum].releaseYear}/>
           <GenreTags/>
           <BandMembers/>
         </div>

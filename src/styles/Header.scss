@@ -41,7 +41,7 @@ input {
   padding: .5rem;
   background: $gradientBlackSmall;
   p {
-    @include allCapsOnBlack;
+    @include allCapsGrayOnBlack;
   }
 }
 
@@ -86,5 +86,11 @@ input {
   }
   a {
     text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 60rem){
+  #because {
+    display: none;
   }
 }
