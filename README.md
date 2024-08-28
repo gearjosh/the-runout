@@ -32,6 +32,7 @@ It will be an app to log and review album listens, similar to what letterboxd.co
 #### What are the stretch goals?
 
 - Add user authentication so that more than one user can use the site at once.
+  - Look into Patreon for user authentication
 - Users can pick a list of favorite albums to display on a profile.
 - All recently logged albums will live in a CSS grid with sizing relative to how many times they were listened to.  This will function as the homepage.
 - Users can filter the homepage by popularity, only showing albums with more or less than a certain number of listens.
